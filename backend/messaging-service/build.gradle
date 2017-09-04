@@ -1,4 +1,34 @@
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
+buildscript {
+    ext {
+        springMilestoneRepository = 'https://repo.spring.io/libs-milestone'
+
+    }
+    repositories {
+        maven {
+            url "$springMilestoneRepository"
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
+    }
+}
+
 group 'org.isegodin.simple-messenger'
 version "$projectBuildVersion"
 
 apply plugin: 'java'
+apply plugin: SpringBootPlugin
+
+repositories {
+    maven {
+        url "$springMilestoneRepository"
+    }
+}
+
+dependencies {
+    compile("org.springframework.cloud:spring-cloud-starter-config:$springCloudVersion")
+    compile("org.springframework.cloud:spring-cloud-starter-eureka:$springCloudVersion")
+}
