@@ -1,0 +1,11 @@
+# IDE system files
+.idea
+*.iml
+
+# Other default system folders
+.gradle
+
+# Default output folders
+build
+
+

@@ -1,0 +1,4 @@
+group 'org.isegodin.simple-messenger'
+version "$projectBuildVersion"
+
+apply plugin: 'java'
