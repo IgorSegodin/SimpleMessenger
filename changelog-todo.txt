@@ -1,1 +1,0 @@
-Add spring micro-service template for future messaging service (http://projects.spring.io/spring-cloud/#quick-start)

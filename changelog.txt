@@ -1,0 +1,4 @@
+DONE: Add spring micro-service template for future messaging service (http://projects.spring.io/spring-cloud/#quick-start)
+
+TODO: Implement client access to service  (https://spring.io/blog/2015/07/14/microservices-with-spring)
+TODO: Use Docker to build and run all components

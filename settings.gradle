@@ -1,3 +1,4 @@
 rootProject.name = 'simple-messenger'
 include 'backend:messaging-service'
+include 'backend:service-registry'
 include 'client:desktop-client'
