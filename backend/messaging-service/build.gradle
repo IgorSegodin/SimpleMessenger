@@ -16,7 +16,7 @@ buildscript {
     }
 }
 
-group 'org.isegodin.simple-messenger'
+group 'org.isegodin.simple-messenger.backend'
 version "$projectBuildVersion"
 
 apply plugin: 'java'
